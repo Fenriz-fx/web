@@ -8,18 +8,22 @@ body{
   padding: 0px;
   margin: 0px;
   font-family: 'Product Sans';
-  background-image: url(Cloudy.svg);
+  background-image: url(wavy.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   width: auto;
 }
 .header{
   position: fixed;
   width: 100%;
   z-index: 0;
-  padding: 8px;
+  padding: 15px 10px 15px;
   background: #ffffff;
   margin: 0px;
+  border-radius: 0px 0px 0px 40px;
+  margin-left: 10px;
+  height: 30px;
 }
 .content{
   height: 100vh;
@@ -30,18 +34,19 @@ body{
   
 }
 .bt{
-  background-color: #d03151;
-  border-radius: 8px;
+  background-color: white;
+  border-radius: 58px;
   border: 0px;
+  font-size: 16px;
   padding: 10px 45px;
   font-weight: 300;
   margin-left: 20px;
-  color: white;
+  color: red;
   font-family: 'Product Sans';
 }
 .h{
  font-size: 30px;
- color: black;
+ color: white;
  margin: 0px;
  padding: 0px;
  font-weight: 500;
@@ -49,7 +54,7 @@ body{
  margin-bottom: 3px;
 }
 .p1{
-  color: black;
+  color: white;
   font-size: 15px;
   margin: 0px;
   padding: 5px 20px 10px;
@@ -57,11 +62,11 @@ body{
   font-weight: 200;
 }
 .h2{
-  font-size: 25px;
+  font-size: 20px;
   margin: 0px;
   padding: 0px;
   font-weight: 300;
-  margin-left: 10px;
+  margin-left: 20px;
 }
 .p2{
   padding: 0px;
